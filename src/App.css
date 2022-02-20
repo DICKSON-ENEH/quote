@@ -1,0 +1,178 @@
+.maindiv{
+  width: 100%;
+  height:100vh;
+  background: linear-gradient(to right top, rgb(209,31,93),rgb(209,31,93),rgb(148,27,97));
+  display : flex;
+  justify-content: center;
+  align-items: center;
+}
+.quoteholder{
+  width: 600px;
+  height: 600px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 5px rgba(255, 255, 255, 0.103);
+  display:flex;
+justify-content: space-between;
+flex-direction: column;
+
+}
+.holders{
+  width: 700px;
+  height: 600px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column; 
+
+}
+.puts{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items:space-between;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.head{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; 
+
+
+}
+.up{
+  width: 100%;
+  display: flex;
+
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  
+}
+.pro{
+  display:flex;
+  justify-content:center;
+}
+.usertext{
+  width: 580px;
+  height: 110px;
+  display: flex;
+  justify-content:center;
+  padding: 10px;
+}
+.forbuttons{
+  display: flex;
+  justify-content:center;
+  margin: 20px;
+ 
+}
+span{
+  display: flex;
+  justify-content:space-between;
+  align-items:space-between;
+  width: 220px;
+  padding: 20px;
+}
+span> button{
+  width: 100px;
+  height: 40px;
+  border-radius:30px;
+  border: none;
+  cursor: pointer;
+  background:  linear-gradient(to right top, rgb(209,31,93),rgb(209,31,93),rgb(209,31,93),rgb(148,27,97));
+  appearance: none;
+  outline: none;
+
+  /* position: relative; */
+
+}
+span > button:hover{
+  background: rgb(28, 177, 8);
+}
+input{
+  
+ width: 400px;
+ height: 20px;
+ border-radius: 20px;
+ padding: 10px;
+ appearance: none;
+ outline: none;
+ border: none;
+}
+.puts button{
+  width: 90px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  outline: none;
+
+  
+}
+.puts button:hover{
+  background: rgb(28, 177, 8)
+}
+.name{
+  display: flex;
+  justify-content:space-between;
+ 
+}
+.first{
+  display: flex;
+  justify-content:space-between;
+}
+.name input{
+  width: 300px;
+  margin: 18px 3px;
+}
+/* .name button{
+  width: 100px;
+  height: 40px;
+  margin: 20px;
+  border-radius: 20px;
+  appearance: none;
+  border: none;
+  background:rgb(206, 209, 31); */
+
+.first button{
+  width: 100px;
+  height: 40px;
+  margin:  0px 20px;
+  border-radius:20px;
+  appearance: none;
+  border: none;
+  background:  linear-gradient(to right top, rgb(206, 209, 31),rgb(199, 233, 7));
+
+}
+h4{
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: cursive;
+  
+}
+h3{
+  color: rgb(252, 2, 90);
+  font-size: 2.5rem;
+}
+.random{
+  display: flex;justify-content: center;
+  padding-bottom: 20px;
+}
+
+.random button{
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background:  linear-gradient(to right top, rgb(209,31,93),rgb(209,31,93),rgb(209,31,93),rgb(148,27,97));
+  cursor: pointer;
+}
+button:hover{
+  background:rgb(28, 177, 8)
+}
